@@ -17,7 +17,7 @@ spec:
       containers:
         - name: web
 
-          image: 505342848876.dkr.ecr.us-east-1.amazonaws.com/devops-project-repo:d41e5767495613fa960e4d1ff4aa839e39fcdb94
+          image: 505342848876.dkr.ecr.us-east-1.amazonaws.com/devops-project-repo:79729117e3b82b6649aaab99738d633230967b87
           ports:
             - name: http
               containerPort: 5000
