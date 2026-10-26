@@ -1,20 +1,15 @@
 replicaCount: 3
-
 image:
   repository: 505342848876.dkr.ecr.us-east-1.amazonaws.com/devops-project-repo
-  tag: "edc84e305093b7b70cf59a062965602c053a0fc8"
-
+  tag: "f11becf458857f926fbebeea811808a181e28567"
 app:
   name: rke2-project
-
 service:
   port: 80
   targetPort: 5000
-
 ingress:
   className: traefik
   host: rke2.example.test
-
 resources:
   requests:
     cpu: 100m
