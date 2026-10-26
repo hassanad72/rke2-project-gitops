@@ -1,0 +1,5 @@
+apiVersion: v2
+name: rke2-project
+description: Flask application deployed to RKE2
+type: application
+version: 0.1.0
