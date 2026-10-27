@@ -1,7 +1,7 @@
 replicaCount: 3
 image:
   repository: 505342848876.dkr.ecr.us-east-1.amazonaws.com/devops-project-repo
-  tag: "fe56ef1f58c2a8a7680e887e97e32d58c32326b1"
+  tag: "48c368df2c89b80f0bc483edc62d5675a7cfce37"
 app:
   name: rke2-project
 service:
